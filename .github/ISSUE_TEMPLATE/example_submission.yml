@@ -1,0 +1,66 @@
+name: Example or ecosystem submission
+description: Propose a new example or an ecosystem entry for the catalog.
+title: "[Submission]: "
+labels: ["submission"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Submission type
+      options:
+        - Runnable example for this repository
+        - Ecosystem entry for the registry
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: Proposed example directory or ecosystem project name.
+      placeholder: task-delegation
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What does it demonstrate or provide?
+    validations:
+      required: true
+  - type: checkboxes
+    id: dimensions
+    attributes:
+      label: Harmovela dimensions
+      description: Select the dimensions the submission demonstrates.
+      options:
+        - label: Event
+        - label: Task
+        - label: State
+        - label: Context / Memory
+        - label: Delegation
+        - label: Recovery
+        - label: Governance
+  - type: input
+    id: languages
+    attributes:
+      label: Languages and runtimes
+      description: Which languages or runtimes does the submission use?
+      placeholder: TypeScript, Python
+    validations:
+      required: false
+  - type: input
+    id: url
+    attributes:
+      label: Project URL
+      description: Required for ecosystem entries. Must be a public HTTPS URL.
+    validations:
+      required: false
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      options:
+        - label: I have read the contribution guide.
+          required: true
+        - label: I am willing to maintain this submission or have identified a maintainer.
+          required: true

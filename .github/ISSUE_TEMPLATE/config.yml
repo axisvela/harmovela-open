@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Harmovela Protocol issues
+    url: https://github.com/axisvela/harmovela/issues
+    about: Report protocol, schema, conformance, or reference implementation issues in the protocol repository.
+  - name: Security report
+    url: https://github.com/axisvela/harmovela-open/security/advisories/new
+    about: Report vulnerabilities privately. Do not open a public issue.

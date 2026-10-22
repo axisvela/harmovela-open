@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+target/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Go
+*.exe
+*.test
+*.out
+
+# Java
+.mvn/
+*.class
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local workspaces
+.worktrees/
+tmp/

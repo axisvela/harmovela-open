@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a problem with an example, the ecosystem registry, or repository tooling.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not report security vulnerabilities here. See [SECURITY.md](https://github.com/axisvela/harmovela-open/blob/main/SECURITY.md).
+  - type: input
+    id: location
+    attributes:
+      label: Affected location
+      description: Link to the example, script, or documentation page.
+      placeholder: examples/my-example/
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include the exact commands and the output you observed.
+      placeholder: |
+        1. cd examples/my-example
+        2. npm install
+        3. npm start
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, runtime version, and any relevant service versions.
+      placeholder: Windows 11, Node.js 20.11, PostgreSQL 16
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Logs, screenshots, or related issues.
+    validations:
+      required: false
