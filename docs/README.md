@@ -11,6 +11,6 @@ Guides for working in the Harmovela Open repository.
 ## Related Resources
 
 - [Harmovela Protocol repository](https://github.com/axisvela/harmovela)
-- [Harmovela specification site](https://axisrobo.github.io/harmovela/)
+- [Harmovela specification site](https://axisvela.github.io/harmovela/)
 - [Examples index](../examples/README.md)
 - [Ecosystem index](../ecosystem/README.md)

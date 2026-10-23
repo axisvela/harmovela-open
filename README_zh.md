@@ -1,6 +1,6 @@
 # Harmovela Open
 
-> [English](README.md) | [协议仓库](https://github.com/axisvela/harmovela) | [规范站点](https://axisrobo.github.io/harmovela/)
+> [English](README.md) | [协议仓库](https://github.com/axisvela/harmovela) | [规范站点](https://axisvela.github.io/harmovela/)
 
 **Harmovela Open** 是 [Harmovela 协议](https://github.com/axisvela/harmovela) 的公开示例与生态仓库。Harmovela 是一个面向自主系统的开放协调协议。
 

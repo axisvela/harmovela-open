@@ -1,6 +1,6 @@
 # Harmovela Open
 
-> [中文](README_zh.md) | [Protocol Repository](https://github.com/axisvela/harmovela) | [Spec Site](https://axisrobo.github.io/harmovela/)
+> [中文](README_zh.md) | [Protocol Repository](https://github.com/axisvela/harmovela) | [Spec Site](https://axisvela.github.io/harmovela/)
 
 **Harmovela Open** is the public examples and ecosystem hub for the [Harmovela Protocol](https://github.com/axisvela/harmovela) — an open coordination protocol for autonomous systems.
 
